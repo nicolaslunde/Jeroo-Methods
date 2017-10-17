@@ -1,0 +1,81 @@
+@Java
+JUMP 1 0 0 0 0 1 0
+NEW 0 0 0 0 1 0 5
+NEW 1 1 0 0 2 0 6
+CSR 0 0 0 0 0 0 8
+HOP 1 0 0 0 0 0 8
+TURN 1 0 0 0 0 0 9
+HOP 1 0 0 0 0 0 10
+TURN 3 0 0 0 0 0 11
+HOP 1 0 0 0 0 0 12
+TURN 1 0 0 0 0 0 13
+HOP 1 0 0 0 0 0 14
+TURN 3 0 0 0 0 0 15
+HOP 1 0 0 0 0 0 16
+TURN 1 0 0 0 0 0 17
+HOP 1 0 0 0 0 0 18
+TURN 3 0 0 0 0 0 19
+HOP 1 0 0 0 0 0 20
+TURN 1 0 0 0 0 0 21
+HOP 1 0 0 0 0 0 22
+TURN 3 0 0 0 0 0 23
+HOP 1 0 0 0 0 0 24
+TURN 1 0 0 0 0 0 25
+HOP 1 0 0 0 0 0 26
+TURN 3 0 0 0 0 0 27
+HOP 1 0 0 0 0 0 28
+TURN 1 0 0 0 0 0 29
+HOP 1 0 0 0 0 0 30
+TURN 3 0 0 0 0 0 31
+HOP 1 0 0 0 0 0 32
+TURN 1 0 0 0 0 0 33
+HOP 1 0 0 0 0 0 34
+TURN 3 0 0 0 0 0 35
+HOP 1 0 0 0 0 0 36
+TURN 1 0 0 0 0 0 37
+HOP 1 0 0 0 0 0 38
+RETR 0 0 0 0 0 0 39
+@@
+//(C) A+ Computer Science
+
+method main()
+{
+  Jeroo jimmy = new Jeroo(0,0);
+      
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop(); 
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();
+     jimmy.turn(LEFT);
+     jimmy.hop();
+     jimmy.turn(RIGHT);
+     jimmy.hop();               
+} 
+
+
+
+
+

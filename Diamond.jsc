@@ -1,0 +1,22 @@
+@Java
+
+@@
+//(C) A+ Computer Science   
+
+method main()
+{
+//Introducing, the flower gardening team!!!
+  
+  Jeroo betty = new Jeroo(0,11,SOUTH,11);
+  Jeroo bob = new Jeroo(11,0,EAST,11);
+  Jeroo beatriz = new Jeroo(23,11,NORTH,11);
+  Jeroo ben = new Jeroo(11,23,WEST,11);
+  
+  betty.garden();
+  
+   public void garden() 
+   {
+   this.plant()
+   } 
+
+}
